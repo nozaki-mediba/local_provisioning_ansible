@@ -35,6 +35,7 @@
       - awscli
       - zsh
       - peco
+      - npm
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:

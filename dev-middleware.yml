@@ -22,9 +22,11 @@
     # state choices: [head, latest, present, absent, linked, unlinked] (default: latest)
     # install_options: string or sequence (default: none)
     homebrew_packages:
-      - mongodb
+      # - mongodb
       - memcached
-      - redis
+      - mysql
+      # - redis
+
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
