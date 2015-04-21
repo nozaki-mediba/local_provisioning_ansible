@@ -1,0 +1,8 @@
+- hosts: localhost
+  connection: local
+  # user: root
+  tasks:
+    - npm: name=phantomjs path=/usr/local/lib/node_modules
+    - npm: name=casperjs path=/usr/local/lib/node_modules
+    - npm: name=coffee-script path=/usr/local/lib/node_modules
+    - npm: name=mysql path=/usr/local/lib/node_modules
